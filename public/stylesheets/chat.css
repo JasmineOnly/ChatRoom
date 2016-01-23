@@ -1,0 +1,175 @@
+#container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#content{
+  position: absolute;
+  top: 0;
+  right: 250px;
+  bottom: 0;
+  left: 0;
+}
+
+#content_messages{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 180px;
+  right: 0;
+}
+
+#content_saying{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 180px;
+  right: 0;
+}
+
+#users_online{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  bottom: 0;
+  width: 230px;
+}
+
+#toolbar{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  left: 5px;
+  height: 25px;
+  background: #87CEFA;
+}
+
+#usersbar{
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  background: #F0F8FF;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow:-2px 2px 5px #5F9EA0;
+}
+
+#user_label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height:35px;
+  border-top-left-radius: 5px;
+  background: #87CEFA;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  color: #eee;
+}
+
+#users_list{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom-left-radius: 5px;
+  padding: 10px 0 10px 10px;
+}
+#users_list ul{
+  width:100%;
+  height:100%;
+  list-style: none;
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+#users_list ul li{
+  width: 155px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 5px;
+  cursor: pointer;
+  border-bottom: 1px dashed #666;
+}
+#users_list ul li:hover{
+  background: #eee;
+  border-radius: 5px;
+}
+
+.sayingto{
+  background: #00BFFF;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+#contents{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: #F0F8FF;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: auto;
+}
+
+#input_content{
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  right: 105px;
+  bottom: 30px;
+  border-top-left-radius: 5px;
+  outline: none;
+  padding: 10px;
+  overflow:auto;
+  background: #F0F8FF;
+}
+
+#sayingto{
+  background: #87CEFA;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  height: 25px;
+  line-height: 25px;
+  border-bottom-left-radius: 5px;
+}
+
+#from
+{
+  color:#FF0000;
+  font-weight:bold;
+}
+#to{
+  color:#FF0000;
+  font-weight:bold
+}
+
+#send{
+  position: absolute;
+  top: 60px;
+  right: 5px;
+  bottom: 60px;
+  width: 100px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background: #87CEFA;
+}
